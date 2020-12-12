@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
-              //  startActivity(new Intent(MainActivity.this,dashboard.class));
+             startActivity(new Intent(MainActivity.this,dashboard.class));
             }
         });
         viewPager = (ViewPager) findViewById(R.id.viewPager);
